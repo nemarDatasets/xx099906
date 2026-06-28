@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Electrophysiological markers of surprise-induced failures of visual and auditory awareness",
+  "description": "This dataset contains electrophysiological recordings from 33 participants performing visual and auditory surprise detection tasks. The study investigates electrophysiological markers associated with surprise-induced failures of awareness across sensory modalities. EEG data were collected during counterbalanced presentation of visual and auditory oddball-like tasks, with detailed event annotations and preprocessing information provided for reproducibility.",
+  "methods_description": "33 participants completed both visual and auditory surprise tasks in counterbalanced order. EEG data were recorded using OpenBCI GUI v5.0.1. Note: recorded EEG values are 24 times larger than actual values due to incorrect GUI settings; units are in microvolts/24 as specified in channels.tsv files.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,41 +12,6 @@
     "Takashi Obana": {},
     "Christopher L. Asplund": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.18112/openneuro.ds006394.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on006394",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/on006394",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "modalities": [
-    "beh",
-    "eeg"
-  ],
-  "resource_type_specific": "Neuroimaging Dataset",
-  "sizes": [
-    "546.5 MB (121 files)"
-  ],
-  "formats": [
-    ".fdt",
-    ".json",
-    ".md",
-    ".set",
-    ".tsv",
-    ".yml"
-  ],
-  "description": "This dataset contains electrophysiological recordings from 33 participants performing visual and auditory surprise detection tasks. The study investigates electrophysiological markers associated with surprise-induced failures of awareness across sensory modalities. EEG data were collected during counterbalanced presentation of visual and auditory oddball-like tasks, with detailed event annotations and preprocessing information provided for reproducibility.",
-  "methods_description": "33 participants completed both visual and auditory surprise tasks in counterbalanced order. EEG data were recorded using OpenBCI GUI v5.0.1. Note: recorded EEG values are 24 times larger than actual values due to incorrect GUI settings; units are specified in channels.tsv files as microvolts/24. Participants were excluded at various processing stages, with their data and event lists retained up to their final processing stage.",
   "keywords": [
     {
       "term": "EEG"
@@ -64,6 +31,39 @@
     {
       "term": "electrophysiology"
     }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds006394.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on006394",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on006394",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "resource_type_specific": "Neuroimaging Dataset",
+  "modalities": [
+    "beh",
+    "eeg"
+  ],
+  "sizes": [
+    "546.5 MB (121 files)"
+  ],
+  "formats": [
+    ".fdt",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yml"
   ],
   "source_hash": "692c7a2591122f626f8cf4e601fc75ef08563b769ddba0dda92689ba7f1c77f3"
 }
