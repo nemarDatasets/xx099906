@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.5072%2Ffk2xx099906-blue)](https://doi.org/10.5072/fk2xx099906)
+
 [![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006394-blue)](https://doi.org/10.82901/nemar.on006394)
 
 This is the dataset for Leong et al. (in prep). 33 participants completed both a visual and auditory surprise task in counterbalanced order. Methodological details are contained in the manuscript. 
